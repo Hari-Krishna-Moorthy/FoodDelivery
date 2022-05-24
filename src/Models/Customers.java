@@ -2,11 +2,9 @@ package Models;
 
 public class Customers {
     private String CustomerName;
-    private double TotalAmount;
 
-    public Customers(String customerName, double totalAmount) {
+    public Customers(String customerName) {
         CustomerName = customerName;
-        TotalAmount = totalAmount;
     }
 
     public String getCustomerName() {
@@ -17,11 +15,4 @@ public class Customers {
         CustomerName = customerName;
     }
 
-    public double getTotalAmount() {
-        return TotalAmount;
-    }
-
-    public void setTotalAmount(double totalAmount) {
-        TotalAmount = totalAmount;
-    }
 }
