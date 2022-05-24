@@ -4,9 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Hotels {
+    private String hotelName; 
     List<Food> FoodItems = null;
-    public Hotels() {
+    public Hotels(String name) {
         FoodItems = new ArrayList<>();
+        this.hotelName = name;
+    }
+    public String getName(){
+        return this.hotelName;
     }
     public void addFood(Food food) {
         this.FoodItems.add(food);
