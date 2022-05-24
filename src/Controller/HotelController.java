@@ -22,7 +22,7 @@ public class HotelController{
                 System.out.println("Enter Your Choice....");
                 System.out.println("1.Add food");
                 System.out.println("2.Remove food");
-                int choice = Integer.parseInt(scanner.nextLine());
+                choice = Integer.parseInt(scanner.nextLine());
                 switch(choice){
                     case 1:
 
