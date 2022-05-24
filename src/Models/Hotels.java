@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Hotels {
     private String hotelName; 
-    List<Food> FoodItems = null;
+    public static List<Food> FoodItems = null;
     public Hotels(String name) {
         FoodItems = new ArrayList<>();
         this.hotelName = name;
@@ -15,6 +15,9 @@ public class Hotels {
     }
     public void addFood(Food food) {
         this.FoodItems.add(food);
+    }
+    public void removeFood(Food food){
+
     }
     public List<Food> getFoodItems() {
         return this.FoodItems;
