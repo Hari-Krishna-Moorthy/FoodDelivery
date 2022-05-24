@@ -11,9 +11,9 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to Food Delivery System ....... ");
         System.out.println("Enter YOur choose : ");
-        System.out.println("1. Hotel Login" +
-                "2. Customer login" +
-                "3. Delivery Boy login");
+        System.out.println("1. Hotel Login\n" +
+                "2. Customer login\n" +
+                "3. Delivery Boy login\n");
         int choose = scanner.nextInt();
         switch (choose) {
             case 1 -> HotelController.hotel();

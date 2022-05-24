@@ -10,6 +10,9 @@ public class DeliveryBoy {
         this.EarnedAmount = earnedAmount;
         this.Ratings = ratings;
     }
+    public DeliveryBoy(String name) {
+        Name = name;
+    }
 
     public String getName() {
         return Name;

@@ -17,7 +17,7 @@ public class HotelController{
                 String name = scanner.nextLine();
                 Hotels hotel = new Hotels(name);
                 hotelList.add(hotel);
-                
+
             case 2:
                 System.out.println("Select Your hotel from the list");
                 HotelController.displayHotels();
